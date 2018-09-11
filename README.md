@@ -27,4 +27,39 @@ Create a Spring Boot Application that connects with MongoDB.
     * Create a user and then replace the <dbuser> and <dbpassword>  on the MongoDB URI
     
         ![](img/step-5.png)
-                    
+    
+        
+3. Download the sample project and replace the values on application.properties file with the ones from the database you created at Mlab.
+
+
+4. Run the project and verify that the connection is correct.
+
+
+5. Create two more models (User and Todo) with the following structure:
+
+    User
+    ````Javascript
+        
+        {
+            "id": "12354",
+            "name": "Charles Darwin",
+            "email": "charles@natural.com"
+        }
+        
+     
+    ````     
+    
+    Todo
+    ````Javascript
+        
+        {
+            "description": "travel to Galapagos",
+            "priority": 10,
+            "dueDate": "Jan 10 - 1860"
+            "responsible": "charles@natural.com"
+            "status": "pending"
+        }
+    ````                  
+    
+    
+6. Create a repository for each model(use the *CustomerRepository* as reference)     
