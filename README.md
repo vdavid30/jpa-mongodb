@@ -24,7 +24,7 @@ Create a Spring Boot Application that connects with MongoDB.
     
         ![](img/step-4.png)
         
-    * Create a user and then replace the password and username values on the provided uri
+    * Create a user and then replace the <dbuser> and <dbpassword>  on the MongoDB URI
     
         ![](img/step-5.png)
                     
